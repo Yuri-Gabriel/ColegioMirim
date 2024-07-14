@@ -1,11 +1,15 @@
-#Filtro_busca{
+#Filtro_Busca{
     height: 100px !important;
 }
 
 .Botao_Novo_Dispositivo{
-     top: 160px !important;
+     margin-top: 100px !important;
 }
 
 #Botao_sucess{
     background-color: rgb(94, 187, 72) !important
+}
+
+#Tabela_Cadastrados{
+    margin-top: 100px !important;
 }

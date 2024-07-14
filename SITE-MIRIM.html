@@ -12,7 +12,7 @@
 
 <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid h-100 w-100">
         <div class="logo_bar row">
             <div id="barra" class="bg-warning d-flex flex-row justify-content-center">
                 <img id="logo_Mirim" src="img/logoMirim.svg" alt="Logo colegio Mirim">
@@ -20,8 +20,8 @@
         </div>
 
 
-        <div class="position-relative">
-            <div id="Filtro_busca" class="mt-5 border border-3 bg-white rounded-pill rounded-4 d-flex flex-column justify-content-center">
+        <div class="d-flex flex-column pt-3 p-5">
+            <div id="Filtro_Busca" class="mt-5 border border-1 border-black bg-white rounded-pill rounded-4 d-flex flex-column justify-content-center">
                 <div class="d-flex flex-row justify-content-between mx-3">
                     <input class="Filtro dispositivo" type="text" class="form-control" placeholder="Dispositivo">
                     <input class="Filtro nome" type="text" class="form-control" placeholder="Nome">
@@ -32,10 +32,41 @@
                 </div>
             </div>
 
-            <div class="Botao_Novo_Dispositivo position-absolute top-100 start-50 translate-middle">
-                <button id="Botao_sucess" class="btn btn-success">Adicionar novo dispositivo</button>
+            <div class="Botao_Novo_Dispositivo align-self-center mt-5">
+                <button id="Botao_sucess" class="border border-0 btn btn-success rounded-pill">Adicionar novo
+                    dispositivo</button>
             </div>
+
+
+        <div id="Tabela_Cadastrados" class="border rounded-4 px-4">
+            <table class="table table-bordered table-striped align-self-center mt-5">
+                <thead>
+                    <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Dispositivo</th>
+                        <th scope="col">Turma</th>
+                        <th scope="col">Data</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Defeito</th>    
+                    </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                    </tbody>
+            </table>
         </div>
+         
+
+        </div>
+
+
 
 
     </div>
