@@ -1,15 +1,41 @@
+#barra{
+    background-color: rgb(218, 223, 32) !important;
+}
+
+.Body_site{
+   padding-left: 60px !important;
+   padding-right: 60px !important;
+}
+
 #Filtro_Busca{
-    height: 100px !important;
+    height: 70px !important;
+}
+
+.Filtro{
+    width: 100px;
+}
+
+
+#Filtro_Busca input, select{
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+::placeholder{
+    color: black;
 }
 
 .Botao_Novo_Dispositivo{
-     margin-top: 100px !important;
+     margin-top: 50px !important;
 }
 
 #Botao_sucess{
-    background-color: rgb(94, 187, 72) !important
+    background-color: rgb(94, 187, 72) !important;
+    height: 50px !important;
+    width: 250px !important;
 }
 
 #Tabela_Cadastrados{
-    margin-top: 100px !important;
+    margin-top: 50px !important;
 }

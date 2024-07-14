@@ -20,49 +20,64 @@
         </div>
 
 
-        <div class="d-flex flex-column pt-3 p-5">
-            <div id="Filtro_Busca" class="mt-5 border border-1 border-black bg-white rounded-pill rounded-4 d-flex flex-column justify-content-center">
-                <div class="d-flex flex-row justify-content-between mx-3">
-                    <input class="Filtro dispositivo" type="text" class="form-control" placeholder="Dispositivo">
+        <div class="Body_site d-flex flex-column pt-4 p-5">
+            <div id="Filtro_Busca"
+                class="mt-5 border border-1 border-black bg-white rounded-pill rounded-4 d-flex flex-column justify-content-center">
+                <div class="d-flex flex-row justify-content-around mx-3">
+                    <select class="Filtro  dispositivo" class="form-control" placeholder="Dispositivo">
+                        <option value="0">Dispositivo</option>
+                        <option value="1">Chromebook</option>
+                        <option value="2">Ipad</option>
+                    </select>
                     <input class="Filtro nome" type="text" class="form-control" placeholder="Nome">
-                    <input class="Filtro turno" type="text" class="form-control" placeholder="Turno">
-                    <input class="Filtro status" type="text" class="form-control" placeholder="Status">
+                    <select class="Filtro turno" class="form-control" placeholder="Turno">
+                        <option value="0">Turno</option>
+                        <option value="1">6 Ano</option>
+                        <option value="2">7 Ano</option>
+                        <option value="3">8 Ano</option>
+                        <option value="4">9 Ano</option>
+                    </select>
+                    <select class="Filtro status" class="form-control" placeholder="Status">
+                        <option value="0">Status</option>
+                        <option value="1">No estoque</option>
+                        <option value="2">Em uso</option>
+                        <option value="3">Não devolvido</option>
+                    </select>
                     <input class="Filtro data" type="text" class="form-control" placeholder="Data">
                     <input class="Filtro defeito" type="text" class="form-control" placeholder="Defeito">
                 </div>
             </div>
 
-            <div class="Botao_Novo_Dispositivo align-self-center mt-5">
-                <button id="Botao_sucess" class="border border-0 btn btn-success rounded-pill">Adicionar novo
-                    dispositivo</button>
+            <div class="Botao_Novo_Dispositivo align-self-center">
+                <button id="Botao_sucess" class="border border-0 btn btn-success rounded-pill w-100">Adicionar novo dispositivo</button>
             </div>
 
 
-        <div id="Tabela_Cadastrados" class="border rounded-4 px-4">
-            <table class="table table-bordered table-striped align-self-center mt-5">
-                <thead>
-                    <tr>
-                        <th scope="col">Nome</th>
-                        <th scope="col">Dispositivo</th>
-                        <th scope="col">Turma</th>
-                        <th scope="col">Data</th>
-                        <th scope="col">Status</th>
-                        <th scope="col">Defeito</th>    
-                    </tr>
-                </thead>
+            <div id="Tabela_Cadastrados" class="border border-black rounded-4 px-4">
+                <table class="table table-bordered table-striped align-self-center mt-5">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Dispositivo</th>
+                            <th scope="col">Turma</th>
+                            <th scope="col">Data</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Defeito</th>
+                        </tr>
+                    </thead>
                     <tbody>
                         <tr>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
                         </tr>
                     </tbody>
-            </table>
-        </div>
-         
+                </table>
+            </div>
+
 
         </div>
 
