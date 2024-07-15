@@ -1,0 +1,11 @@
+.Add_Dispositivo input {
+    border: none;
+    border-bottom: 1px solid #df0000;
+    width: 100px;
+}
+
+.Add_Dispositivo select{
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 100px;
+}
