@@ -1,0 +1,33 @@
+#Filtro_busca{
+    height: 100px !important;
+}
+
+.Botao_Novo_Dispositivo{
+     top: 160px !important;
+}
+
+#Botao_sucess{
+    background-color: rgb(94, 187, 72) !important;
+    border-radius: 30px;
+}
+
+#Botao_sucess:hover {
+    transform: scale(1.05);
+    transition: .2s all linear;
+}
+
+.Filtro {
+    min-width: 180px;
+}
+
+select.Filtro :nth-child(1) {
+    display: none;
+}
+
+#Tabela_Cadastrados{
+    margin-top: 100px !important;
+}
+
+tbody tr:hover {
+    background-color: #000000;
+}
