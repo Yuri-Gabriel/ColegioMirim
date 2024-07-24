@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="logo_bar row">
+            <div id="barra" class="bg-warning d-flex flex-row justify-content-center">
+                <img id="logo_Mirim" src="img/logoMirim.svg" alt="Logo colegio Mirim">
+            </div>
+        </div>
+
+
+        <div class="position-relative">
+            <div id="Filtro_busca" class="mt-5 border border-3 bg-white rounded-pill rounded-4 d-flex flex-column justify-content-center">
+                <div class="d-flex flex-row justify-content-between mx-3">
+                    <select class="Filtro dispositivo" class="form-control" placeholder="Dispositivo">
+                        <option value="0">Dispositivo</option>
+                        <option value="1">Chromebook</option>
+                        <option value="2">Ipad</option>
+                    </select>
+                    <input class="Filtro nome" type="search" class="form-control" placeholder="Nome">
+                    <select class="Filtro turno" class="form-control" placeholder="Turno">
+                        <option value="0">Turno</option>
+                        <option value="1">6 Ano</option>
+                        <option value="2">7 Ano</option>
+                        <option value="3">8 Ano</option>
+                        <option value="4">9 Ano</option>
+                    </select>
+                    <select class="Filtro status" class="form-control" placeholder="Status">
+                        <option value="0">Status</option>
+                        <option value="1">No estoque</option>
+                        <option value="2">Em uso</option>
+                        <option value="3">Não devolvido</option>
+                    </select>
+                    <input class="Filtro data" type="date" class="form-control" placeholder="Data">
+                    <input class="Filtro defeito" type="search" class="form-control" placeholder="Defeito">
+                </div>
+            </div>
+
+            <div class="Botao_Novo_Dispositivo position-absolute top-100 start-50 translate-middle">
+                <button id="Botao_sucess" class="btn btn-success">Adicionar novo dispositivo</button>
+            </div>
+        </div>
+
+        <div id="Tabela_Cadastrados" class="border rounded-4 px-4">
+            <table class="table table-bordered table-striped align-self-center mt-5">
+                <thead>
+                    <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Dispositivo</th>
+                        <th scope="col">Turma</th>
+                        <th scope="col">Data</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Defeito</th>    
+                    </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                    </tbody>
+            </table>
+        </div>
+         
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
